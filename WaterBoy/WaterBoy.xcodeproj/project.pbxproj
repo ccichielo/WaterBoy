@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543A93902AF5B8DD00DD06E4 /* WaterBoy Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 543A938F2AF5B8DD00DD06E4 /* WaterBoy Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		543A93952AF5B8DD00DD06E4 /* WaterBoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A93942AF5B8DD00DD06E4 /* WaterBoyApp.swift */; };
+		543A93972AF5B8DD00DD06E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A93962AF5B8DD00DD06E4 /* ContentView.swift */; };
+		543A93992AF5B8E000DD06E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543A93982AF5B8E000DD06E4 /* Assets.xcassets */; };
+		543A939C2AF5B8E000DD06E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543A939B2AF5B8E000DD06E4 /* Preview Assets.xcassets */; };
+		543A93A62AF5B8E000DD06E4 /* WaterBoy_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A93A52AF5B8E000DD06E4 /* WaterBoy_Watch_AppTests.swift */; };
+		543A93B02AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A93AF2AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITests.swift */; };
+		543A93B22AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A93B12AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543A93912AF5B8DD00DD06E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543A93832AF5B8DC00DD06E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543A938E2AF5B8DD00DD06E4;
+			remoteInfo = "WaterBoy Watch App";
+		};
+		543A93A22AF5B8E000DD06E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543A93832AF5B8DC00DD06E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543A938E2AF5B8DD00DD06E4;
+			remoteInfo = "WaterBoy Watch App";
+		};
+		543A93AC2AF5B8E100DD06E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543A93832AF5B8DC00DD06E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543A938E2AF5B8DD00DD06E4;
+			remoteInfo = "WaterBoy Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		543A93B82AF5B8E100DD06E4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				543A93902AF5B8DD00DD06E4 /* WaterBoy Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		543A93892AF5B8DD00DD06E4 /* WaterBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543A938F2AF5B8DD00DD06E4 /* WaterBoy Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaterBoy Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543A93942AF5B8DD00DD06E4 /* WaterBoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBoyApp.swift; sourceTree = "<group>"; };
+		543A93962AF5B8DD00DD06E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543A93982AF5B8E000DD06E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543A939B2AF5B8E000DD06E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543A93A12AF5B8E000DD06E4 /* WaterBoy Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterBoy Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543A93A52AF5B8E000DD06E4 /* WaterBoy_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBoy_Watch_AppTests.swift; sourceTree = "<group>"; };
+		543A93AB2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterBoy Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543A93AF2AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBoy_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		543A93B12AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBoy_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543A938C2AF5B8DD00DD06E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A939E2AF5B8E000DD06E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A93A82AF5B8E100DD06E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543A93822AF5B8DC00DD06E4 = {
+			isa = PBXGroup;
+			children = (
+				543A93932AF5B8DD00DD06E4 /* WaterBoy Watch App */,
+				543A93A42AF5B8E000DD06E4 /* WaterBoy Watch AppTests */,
+				543A93AE2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests */,
+				543A938A2AF5B8DD00DD06E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543A938A2AF5B8DD00DD06E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543A93892AF5B8DD00DD06E4 /* WaterBoy.app */,
+				543A938F2AF5B8DD00DD06E4 /* WaterBoy Watch App.app */,
+				543A93A12AF5B8E000DD06E4 /* WaterBoy Watch AppTests.xctest */,
+				543A93AB2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543A93932AF5B8DD00DD06E4 /* WaterBoy Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				543A93942AF5B8DD00DD06E4 /* WaterBoyApp.swift */,
+				543A93962AF5B8DD00DD06E4 /* ContentView.swift */,
+				543A93982AF5B8E000DD06E4 /* Assets.xcassets */,
+				543A939A2AF5B8E000DD06E4 /* Preview Content */,
+			);
+			path = "WaterBoy Watch App";
+			sourceTree = "<group>";
+		};
+		543A939A2AF5B8E000DD06E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543A939B2AF5B8E000DD06E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543A93A42AF5B8E000DD06E4 /* WaterBoy Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				543A93A52AF5B8E000DD06E4 /* WaterBoy_Watch_AppTests.swift */,
+			);
+			path = "WaterBoy Watch AppTests";
+			sourceTree = "<group>";
+		};
+		543A93AE2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				543A93AF2AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITests.swift */,
+				543A93B12AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WaterBoy Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543A93882AF5B8DD00DD06E4 /* WaterBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A93B92AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy" */;
+			buildPhases = (
+				543A93872AF5B8DD00DD06E4 /* Resources */,
+				543A93B82AF5B8E100DD06E4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543A93922AF5B8DD00DD06E4 /* PBXTargetDependency */,
+			);
+			name = WaterBoy;
+			productName = WaterBoy;
+			productReference = 543A93892AF5B8DD00DD06E4 /* WaterBoy.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		543A938E2AF5B8DD00DD06E4 /* WaterBoy Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A93B52AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch App" */;
+			buildPhases = (
+				543A938B2AF5B8DD00DD06E4 /* Sources */,
+				543A938C2AF5B8DD00DD06E4 /* Frameworks */,
+				543A938D2AF5B8DD00DD06E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterBoy Watch App";
+			productName = "WaterBoy Watch App";
+			productReference = 543A938F2AF5B8DD00DD06E4 /* WaterBoy Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543A93A02AF5B8E000DD06E4 /* WaterBoy Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A93BC2AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch AppTests" */;
+			buildPhases = (
+				543A939D2AF5B8E000DD06E4 /* Sources */,
+				543A939E2AF5B8E000DD06E4 /* Frameworks */,
+				543A939F2AF5B8E000DD06E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543A93A32AF5B8E000DD06E4 /* PBXTargetDependency */,
+			);
+			name = "WaterBoy Watch AppTests";
+			productName = "WaterBoy Watch AppTests";
+			productReference = 543A93A12AF5B8E000DD06E4 /* WaterBoy Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		543A93AA2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A93BF2AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch AppUITests" */;
+			buildPhases = (
+				543A93A72AF5B8E100DD06E4 /* Sources */,
+				543A93A82AF5B8E100DD06E4 /* Frameworks */,
+				543A93A92AF5B8E100DD06E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543A93AD2AF5B8E100DD06E4 /* PBXTargetDependency */,
+			);
+			name = "WaterBoy Watch AppUITests";
+			productName = "WaterBoy Watch AppUITests";
+			productReference = 543A93AB2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543A93832AF5B8DC00DD06E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					543A93882AF5B8DD00DD06E4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					543A938E2AF5B8DD00DD06E4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					543A93A02AF5B8E000DD06E4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 543A938E2AF5B8DD00DD06E4;
+					};
+					543A93AA2AF5B8E100DD06E4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 543A938E2AF5B8DD00DD06E4;
+					};
+				};
+			};
+			buildConfigurationList = 543A93862AF5B8DC00DD06E4 /* Build configuration list for PBXProject "WaterBoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543A93822AF5B8DC00DD06E4;
+			productRefGroup = 543A938A2AF5B8DD00DD06E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543A93882AF5B8DD00DD06E4 /* WaterBoy */,
+				543A938E2AF5B8DD00DD06E4 /* WaterBoy Watch App */,
+				543A93A02AF5B8E000DD06E4 /* WaterBoy Watch AppTests */,
+				543A93AA2AF5B8E100DD06E4 /* WaterBoy Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543A93872AF5B8DD00DD06E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A938D2AF5B8DD00DD06E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543A939C2AF5B8E000DD06E4 /* Preview Assets.xcassets in Resources */,
+				543A93992AF5B8E000DD06E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A939F2AF5B8E000DD06E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A93A92AF5B8E100DD06E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543A938B2AF5B8DD00DD06E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543A93972AF5B8DD00DD06E4 /* ContentView.swift in Sources */,
+				543A93952AF5B8DD00DD06E4 /* WaterBoyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A939D2AF5B8E000DD06E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543A93A62AF5B8E000DD06E4 /* WaterBoy_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543A93A72AF5B8E100DD06E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543A93B02AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITests.swift in Sources */,
+				543A93B22AF5B8E100DD06E4 /* WaterBoy_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543A93922AF5B8DD00DD06E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543A938E2AF5B8DD00DD06E4 /* WaterBoy Watch App */;
+			targetProxy = 543A93912AF5B8DD00DD06E4 /* PBXContainerItemProxy */;
+		};
+		543A93A32AF5B8E000DD06E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543A938E2AF5B8DD00DD06E4 /* WaterBoy Watch App */;
+			targetProxy = 543A93A22AF5B8E000DD06E4 /* PBXContainerItemProxy */;
+		};
+		543A93AD2AF5B8E100DD06E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543A938E2AF5B8DD00DD06E4 /* WaterBoy Watch App */;
+			targetProxy = 543A93AC2AF5B8E100DD06E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		543A93B32AF5B8E100DD06E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543A93B42AF5B8E100DD06E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		543A93B62AF5B8E100DD06E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBoy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterBoy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccichielo.WaterBoy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		543A93B72AF5B8E100DD06E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBoy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterBoy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccichielo.WaterBoy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		543A93BA2AF5B8E100DD06E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterBoy;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccichielo.WaterBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		543A93BB2AF5B8E100DD06E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterBoy;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccichielo.WaterBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543A93BD2AF5B8E100DD06E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccichielo.WaterBoy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterBoy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterBoy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		543A93BE2AF5B8E100DD06E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccichielo.WaterBoy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterBoy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterBoy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		543A93C02AF5B8E100DD06E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccichielo.WaterBoy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WaterBoy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		543A93C12AF5B8E100DD06E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS6DWKCT64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccichielo.WaterBoy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WaterBoy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543A93862AF5B8DC00DD06E4 /* Build configuration list for PBXProject "WaterBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543A93B32AF5B8E100DD06E4 /* Debug */,
+				543A93B42AF5B8E100DD06E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A93B52AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543A93B62AF5B8E100DD06E4 /* Debug */,
+				543A93B72AF5B8E100DD06E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A93B92AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543A93BA2AF5B8E100DD06E4 /* Debug */,
+				543A93BB2AF5B8E100DD06E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A93BC2AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543A93BD2AF5B8E100DD06E4 /* Debug */,
+				543A93BE2AF5B8E100DD06E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A93BF2AF5B8E100DD06E4 /* Build configuration list for PBXNativeTarget "WaterBoy Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543A93C02AF5B8E100DD06E4 /* Debug */,
+				543A93C12AF5B8E100DD06E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543A93832AF5B8DC00DD06E4 /* Project object */;
+}
